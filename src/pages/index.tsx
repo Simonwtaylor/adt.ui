@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import * as React from 'react';
+import { withAuth } from '../components/hoc';
 
 interface IHomeProps {
 
@@ -13,4 +14,4 @@ const Home: React.FC<IHomeProps> = () => {
   )
 };
 
-export default Home;
+export default withAuth(Home);
