@@ -9,6 +9,8 @@ import { getCurrentUser } from '../lib/';
 import getConfig from 'next/config';
 import { Provider } from 'react-redux';
 import store from '../redux/store';
+import '../stylesheets/navbar.styles.scss';
+import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({
   Component,
@@ -29,9 +31,9 @@ function MyApp({
   const authLink = setContext(async (_, { headers }) => {
   
     const userData: any = await getCurrentUser();
-  
+
     // get the authentication token from local storage if it exists
-    let token = userData.ma;
+    let token = userData.xa;
   
     // return the headers to the context so httpLink can read them
     return {

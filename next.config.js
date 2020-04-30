@@ -11,5 +11,6 @@ module.exports = {
     REACT_APP_FIREBASE_PROJECTID:  process.env.REACT_APP_FIREBASE_PROJECTID,
     REACT_APP_GRAPHQL_URL:  process.env.REACT_APP_GRAPHQL_URL,
     REACT_APP_TASK_URL:  process.env.REACT_APP_TASK_URL,
+    BASE_PATH: '/'
   },
 };

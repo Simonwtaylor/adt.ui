@@ -12,7 +12,9 @@ const withAuthentication = <P extends IWithAuthentication> (
   Component: React.ComponentType<P>
 ) => {
   return class WithAuthentication extends React.Component<P> {
-
+    constructor(props: P) {
+      super(props);
+    }
     private unsubscribeFromAuth: any = null;
 
     componentDidMount() {

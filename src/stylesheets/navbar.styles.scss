@@ -1,0 +1,17 @@
+.ui {
+  &.menu {
+    img {
+      width: 25px !important;
+    }
+  }
+}
+
+.navbar {
+  .sprint {
+    &.dropdown {
+      .search {
+        border: none;
+      }
+    }
+  }
+}
