@@ -13,7 +13,8 @@ import '../stylesheets/board-column.scss';
 import '../stylesheets/boards.scss';
 import '../stylesheets/navbar.scss';
 import '../stylesheets/task-card.scss';
-import 'semantic-ui-css/semantic.min.css'
+import '../stylesheets/task-detail.scss';
+import 'semantic-ui-css/semantic.min.css';
 
 function MyApp({
   Component,

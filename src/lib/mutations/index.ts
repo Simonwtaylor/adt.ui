@@ -3,3 +3,4 @@ export * from './task.mutations';
 export * from './board.mutations';
 export * from './user.mutations';
 export * from './sprint.mutations';
+export * from './comment.mutations';

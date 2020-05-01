@@ -1,0 +1,39 @@
+.content {
+  .field {
+    padding: 5px;
+  }
+}
+
+.task-detail {
+  .button {
+    &.completed {
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+    &.submit {
+      float: left;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &.card {
+    &.ui {
+      .body {
+        padding: 15px;
+      }
+    }
+
+    .comments {
+      max-width: 100%;
+    }
+
+    .ui {
+      .description {
+        height: 8em;
+      }
+    }
+  }
+}
