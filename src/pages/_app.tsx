@@ -9,7 +9,10 @@ import { getCurrentUser } from '../lib/';
 import getConfig from 'next/config';
 import { Provider } from 'react-redux';
 import store from '../redux/store';
-import '../stylesheets/navbar.styles.scss';
+import '../stylesheets/board-column.scss';
+import '../stylesheets/boards.scss';
+import '../stylesheets/navbar.scss';
+import '../stylesheets/task-card.scss';
 import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({
